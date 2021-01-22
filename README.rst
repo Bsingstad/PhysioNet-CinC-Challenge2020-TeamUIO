@@ -37,7 +37,12 @@ The data set in this project contains 43.101 ECGs and comes from six different s
 
 .. |makedataset| image:: https://colab.research.google.com/assets/colab-badge.svg
    :target: https://colab.research.google.com/drive/1X5N_6gErP7--IDoN-AxW-aBbeYa4z-n7#scrollTo=mO_h0-9ebtCo  
- 
+   
+ |stateoftheart|
+
+.. |stateoftheart| image:: https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/convolutional-neural-network-and-rule-based/ecg-classification-on-physionet-challenge
+   :target: https://paperswithcode.com/sota/ecg-classification-on-physionet-challenge?p=convolutional-neural-network-and-rule-based  
+
 
 Get access to the data:
 -----------------------
