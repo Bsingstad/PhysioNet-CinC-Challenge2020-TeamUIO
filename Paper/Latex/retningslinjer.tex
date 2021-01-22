@@ -1,0 +1,840 @@
+
+
+
+This article is designed to serve as a guide to writing a coherent and acceptable scientific document, particularly for scientific journals or a research thesis. (The \LaTeX source for this editorial can be found here: \url{https://www.overleaf.com/read/vdtvfvkbbxdn}.) The rationale for doing this is that it seems that graduate students are no longer taught these skills, and I grew tired of saying the same things over and over. As an editor I have seen a rise in lower quality publications, and as a supervisor, I've seen a drop in quality of weekly reports. 
+
+Although I take all the blame for the mistakes in here, I have borrowed liberally from other authors and although I've attempted to credit them where I remembered, I have surely forgotten to in parts, since the information contained in this article has accumulated in my brain over multiple decades. If you think I've forgotten to cite you, let me know and I'll try to find the time to correct any errors or omissions. 
+
+% Erik: Consider moving this to the Acknowledgements. The second paragraph in the abstract is valuable in terms of reader attention, and this is a long abstract - although it technically is not a real abstract - so your objective of providing an overview of this editorial may be better served by omitting the above paragraph.
+
+This article is structured such at the information for each section appears in the section to which it refers. Therefore, the rest of this abstract details how to write an abstract, and as such is much longer than any abstract should be. 
+
+In fact, the abstract should be just a couple of paragraphs to set the scene and provide the motivation (including the clinical rationale if appropriate), then describe your key contributions to scientific knowledge and key results.
+
+Writing an efficient abstract is difficult but is worth it because it increases the impact of your work by enticing people to read your publications and allows automated search engines (which sometime use only the title and abstract) to index your work for accurate discovery (and hence citation). The following advice (borrowed partially from Philip Koopman's 1997 website at Carnegie Mellon University - 
+\url{https://users.ece.cmu.edu/~koopman/essays/abstract.html}) also applies to any scientific article. 
+(By the way, never put citations or Uniform Resource Locators (URLs) in the abstract. Also, never abbreviate in the abstract if you never use that abbreviation again, as I did here. Abbreviations will need redefining in the main article body, because an abstract should be considered stand-alone.) 
+\par
+First, you need to lay the abstract out in a logical order, like your paper - introduction/motivation, methods, results, conclusion. Some journals (particularly medical journals) require these listed as specific subsection titles in the abstract, although most engineering journals generally do not. 
+The Journal `Physiological Measurement', requires the following italicized section headings (followed by a colon) to be explicitly used in-line {\it Objective}, {\it Approach}, {\it Main Results} and {\it Significance}. Regardless, the following key elements should be in your abstract and it should look like this:
+
+{\it Objective}: Sometimes called `Motivation', this should explain why the reader should care about the problem and the results. If the problem isn't obviously ``interesting'' it might be better to put motivation first; but if your work is incremental progress on a problem that is widely recognized as important, then it is probably better to put the problem statement first to indicate which piece of the larger problem you are breaking off to work on.
+This section should usually include the importance of your work, the difficulty of the area, and the impact it might have if successful.
+This section should also include the `Problem Statement' (sometimes identified as a separate section in some journals). Here you need to state what problem  you are trying to solve and identify the scope of your work. (Is a generalized approach, or for a specific situation?) Be careful not to use too much jargon. In some cases it is appropriate to put the problem statement before the motivation, but usually this only works if most readers already understand why the problem is important.
+
+{\it Approach}:
+Describe how did you go about solving or making progress on the problem? Did you use simulation, analytic models, prototype construction, or analysis of field data for an actual product? What was the extent of your work (did you look at one application program or a hundred programs in twenty different programming languages)? What important variables did you control, ignore, or measure?
+
+{\it Main Results}:
+What's the answer? Specifically, most good engineering papers conclude that something is so many percent more accurate, sensitive, specific, faster, or otherwise better than something else. Put the result there, in numbers. Avoid vague, hand-waving results such as ``very'', ``small'', or ``significant''. The latter word, ``significant'' is reserved for statistical analysis only. If you do use  `significant'', quote the p-value and the test (as well as the data on which the test was performed). Compare your results (numerically) to the best or benchmarks in the field. If you must be vague, you are only given license to do so when you can talk about orders-of-magnitude improvement. There is a tension here in that you should not provide numbers that can be easily misinterpreted, but on the other hand you don't have room for all the caveats.
+
+{\it Significance}: Also known as `Conclusions',
+this final section needs to identify the key implications of your results. Is it going to change the world (unlikely), be a significant ``win'', be a nice hack (i.e. shortcut that saves time, money, effort), or simply serve as a road sign indicating that this path is a dead end? (Note that it's also important to identify negative results and publish them to reduce publication bias.) Also state if and how your results are general, potentially generalizable, or if they are specific to a particular case. Do not over-state your case and claim success outside of the domain of your experiments.
+
+Note that an abstract must be a fully self-contained description of the work (thesis, paper, report). It can't assume (or attempt to provoke) the reader into flipping through looking for an explanation of what is meant by some vague statement. It must make sense all by itself. Some other points to consider include:
+\begin{itemize}
+\item {\em Include scientific limitations of study}. Any major restrictions or limitations on the results should be stated, if only by using ``weasel-words'' such as ``might'', ``could'', ``may'', and ``seem''.
+\item {\em Avoid lots of abbreviations}. You do not need to define common abbreviations for a given journal. Generally check with the journal. In your thesis you must. Do not define abbreviations in a title, only in the text, the first time it is used. If you only use it once, there's no need for an abbreviation. Remember that the abstract is self contained, so any abbreviations will have to be redefined in the main text of the thesis or article. 
+\item {\em Meet the word count}. If your abstract runs too long, either it will be rejected or someone will take a chainsaw to it to get it down to size. Your purposes will be better served by doing the difficult task of cutting yourself, rather than leaving it to someone else who might be required to meet size restrictions, rather than in representing your efforts in the best possible manner (since they may not have your deep knowledge of the research). An abstract word limit of 150 to 200 words is common. As of November 2017, Physiological Measurement restricted this to 250 words, with a total paper limit of `not normally more than 8000 words (14 journal pages)'. Some journals allow extra pages (and colour figures) but then will charge you more for them. (Physiological Measurement does not have extra page charges, but you need a very good reason to go over 14 pages in a standard research article.)  
+\item {\em Include key words and phrases}. Think of a half-dozen search phrases and keywords that people looking for your work might use. Be sure that those exact phrases appear in your abstract, so that they will turn up at the top of a search result listing. Try not to use colloquialisms, or over-use buzz-words or your article will sound like you are trying to be fashionable, rather than accurate.
+\item {\em Consider the context and readership}. Usually the context of an article is set by the publication in which it appears (for example, IEEE Computer magazine's articles are generally about computer technology). But, if your paper appears in a somewhat non-traditional venue, be sure to include in the problem statement the domain or topic area to which it is really applicable. 
+\item {\em Keywords}. Some publications request ``keywords''. These have two purposes. They are used to facilitate keyword index searches, which are greatly reduced in importance now that on-line abstract text searching is commonly used. However, they are also used to assign papers to review committees or editors, which can be extremely important to your fate. So make sure that the keywords you pick make assigning your paper to a review category obvious (for example, if there is a list of conference topics, use your chosen topic area as one of the keyword tuples). You may also be required to enter numerical codes (such as in the Physics and Astronomy Classification Scheme (PACS) system),indicating the areas which are associated with your research 
+\item {\em Spelling and grammar}. Please spell check (and grammar check) your entire text before submission. Choose either UK or US spelling and stick to it. Look for common mistakes that spell checkers do not flag (like {\it it's} and {\it its}). Generally avoid contractions, and check possessive apostrophes (you don't use them when using the word {\it its}, but you shouldn't be using that anyway - you should try to be very specific. On that note, avoid ambiguous antecedents. The noun, pronoun, or clause to which a pronoun refers, called an antecedent, usually appears earlier in the sentence, although it can also appear later. A pronoun should refer to one specific antecedent. An ambiguous pronoun antecedent occurs when a pronoun has two or more possible antecedents.
+Make sure you deal with pluralisation correctly too.
+A pronoun usually refers to something earlier in the text (its antecedent) and must agree in number — singular/plural — with the thing to which it refers. The indefinite pronouns anyone, anybody, everyone, everybody, someone, somebody, no one, and nobody are always singular.
+\end{itemize}
+ 
+So in conclusion, your abstract should be much shorter than this ``abstract'' (because {\it this is not an abstract}, as  Ren\'e Magritte never said).
+
+% Erik: Do you recommend writing the abstract first, last, partway through a paper, revisiting it often and revising to match the evolving paper? Some guidance on that could be helpful.
+
+%For an example of a good abstract, see below for an article I published in the Journal of Biomedical Informatics. Note that it was for a semi-clinical journal, so the complex techniques are brushed over because the medical doctors reviewing this would not be that interested in the specific techniques in the abstract. You cannot do this for a technical journal - you will have to name the types of algorithms you used, like `four-layer perceptron with a sigmoid activation function'. Note also that ECG is not defined, because it is so widely understood in clinical informatics to mean `Electrocardiogram'.
+\par
+
+% \vspace{1in}
+% {\bf Reducing false alarm rates for critical arrhythmias using the arterial blood pressure waveform.}
+% \vspace{1cm} 
+
+% % Introduction
+% Over the past two decades, high false alarm (FA) rates have remained an important yet unresolved concern in the Intensive Care Unit (ICU). High FA rates lead to desensitization of the attending staff to such warnings, with associated slowing in response times and detrimental decreases in the quality of care for the patient. False arrhythmia alarms are commonly due to single channel ECG artifacts and low voltage signals, and therefore it is likely that the FA rates may be reduced if information from other independent signals is used to form a more robust hypothesis of the alarm's etiology.
+
+% %Methods
+% A large multi-parameter ICU database (PhysioNet's MIMIC II database) was used to investigate the frequency of five categories of false critical (``red'' or ``life-threatening'') ECG arrhythmia alarms produced by a commercial ICU monitoring system, namely: asystole, extreme bradycardia, extreme tachycardia, ventricular tachycardia and ventricular fibrillation/tachycardia. Non-critical (``yellow'') arrhythmia alarms were not considered in this study. Multiple expert reviews of 5386 critical ECG arrhythmia alarms from a total of 447 adult patient records in the MIMIC II database were made using the associated 41,301 h of simultaneous ECG and arterial blood pressure (ABP) waveforms. An algorithm to suppress false critical ECG arrhythmia alarms using morphological and timing information derived from the ABP signal was then tested.
+
+% %Results
+% An average of 42.7\% of the critical ECG arrhythmia alarms were found to be false, with each of the five alarm categories having FA rates between 23.1\% and 90.7\%. The FA suppression algorithm was able to suppress 59.7\% of the false alarms, with FA reduction rates as high as 93.5\% for asystole and 81.0\% for extreme bradycardia. FA reduction rates were lowest for extreme tachycardia (63.7\%) and ventricular-related alarms (58.2\% for ventricular fibrillation/tachycardia and 33.0\% for ventricular tachycardia). True alarm (TA) reduction rates were all 0\%, except for ventricular tachycardia alarms (9.4\%).
+% %Conclusions
+
+% The FA suppression algorithm reduced the incidence of false critical ECG arrhythmia alarms from 42.7\% to 17.2\%, where simultaneous ECG and ABP data were available. The present algorithm demonstrated the potential of data fusion to reduce false ECG arrhythmia alarms in a clinical setting, but the non-zero TA reduction rate for ventricular tachycardia indicates the need for further refinement of the suppression strategy. To avoid suppressing any true alarms, the algorithm could be implemented for all alarms except ventricular tachycardia. Under these conditions the FA rate would be reduced from 42.7\% to 22.7\%. This implementation of the algorithm should be considered for prospective clinical evaluation. The public availability of a real-world ICU database of multi-parameter physiologic waveforms, together with their associated annotated alarms is a new and valuable research resource for algorithm developers.
+
+
+
+
+
+The point of this article is to provide some guidance on how to lay out and 
+typeset your article (or thesis).  
+It also provides some tips on the general process, but is not a guide
+to the rules and regulations governing your research, or how you should
+organize yourself.
+
+% Erik: I suggest revising to be more direct:
+% "The point of this article is to provide tips and guidance on how to lay out and typeset your article or thesis. This is not a guide to the rules and regulations governing your research, or how you should organize yourself."
+
+\underline{Disclaimer}: 
+First you should remember this document (and template) is only a {\bf guide}, not a dictator. Parts may not suit you, be relevant to you or may be out of date. Details will vary based on your report type, supervisor and sub-department. Always check the details with your department before blindly following this guide. I take no responsibility for any use of the information provided here. it was approximately correct when I wrote it, but things change and I don't have the time to constantly update this. If you find an error, do email me, and I'll add it to my long ToDo list.
+
+% Erik: I suggest revising "Always check the details with your department before blindly following this guide."
+% to "Always check the details with your supervisor before following this guide.".
+% First, the supervisor tends to dictate these rules more than the department, for both articles and theses. Second, nobody should follow a guide "blindly", although I know you mean it with a hint of tongue in cheek.
+
+% Also, minor typo with capitalization, plus consider revising the following: "it was approximately correct when I wrote it, but things change and I don't have the time to constantly update this. If you find an error, do email me, and I'll add it to my long ToDo list."
+% to "It was approximately correct when I wrote it, but styles, rules, and standards change. If you find an error, please email me."
+
+\subsection{Title and preamble}
+Choosing a title is very important. Make the title pithy, and precise. It should explain what you did. Avoid hyperbole and self-aggrandisement. Titles like ``towards a framework for ..'' and ``On the subject of ...'' are reserved for 17th century physicists and mathematicians. You are not Newton or Leibniz, and if you are, then try some modesty. Avoid the word `optimal’ unless it really is an optimization of some sort, and then it needs a qualifier to say how it’s optimal - i.e. in what sense. Optimal makes it sound like it can never be beaten. That’s never true. Avoid the word `novel’ unless is is truly groundbreakingly novel. Usually research is `incremental’ and slightly `novel’. If it wasn’t you wouldn’t be submitting it. Just before you submit the paper, revisit the title. You’ve probably changed the point of the paper since you started it.
+
+Don't forget to pay attention to your affiliations and all of your co-authors/supervisors too.
+
+% Erik: Consider revising to simplify and to avoid double negatives:
+% "Ensure you enter the correct affiliations and all of your co-authors/supervisors too."
+
+Clarify what email addresses they want used (if at all) and ask the main supervisor who should be corresponding author. You may think it should be you. You are probably wrong. This has to be someone who will respond to the article 10-15 years from now. This probably isn't the first author in most cases.
+
+% Erik: consider the following revision:
+% "Clarify what email addresses they want used (if at all). Ask the main supervisor who should be corresponding author. This should be someone who is familiar with all aspects of the work and will respond to queries about the article 10-15 years from now. This often means the supervisor is the corresponding author. However, some supervisors believe part of the research process is to field any and all questions, concerns and queries that come from the paper, and thus have the lead author be the corresponding author."
+
+\subsection{What content should be in the introduction (or Chapter 1 of your thesis)?}
+
+% Erik: typo - "is is" -> "it is"
+For a biomedical engineering/informatics thesis is is normal to begin the first section/chapter by providing the clinical background and motivation for the problem plus a review of existing approaches to solve the problem you are introducing. Make sure to define the problem in detail. The first thesis chapter often ends with a description of the contents of the rest of the thesis, explaining the 'story' you are going to tell, but I don't recommend this in a scientific article - especially if you are just going to list the sections. Everyone knows that the methods follow the introduction, the results follow the methods, then the discussion, then the conclusions. If they don't, make sure they do.
+
+\subsection{Typesetting: Word or \LaTeX?}
+
+% Erik: I suggest consolidating sections 1.4 - 1.7 into a section on ``tools for writing'', and adjusting the style to be less conversational and more direct. Here is possible re-write of the first paragraph:
+% "Word is a {\it wysiwyg} (what you see is what you get) type-setting tool that almost everyone is familiar with, whereas LaTeX is more difficult to use but enables the most professional, powerful, and consistent typesetting features. LaTeX is widely used by engineers, physicists, and mathematicians for writing. I highly recommend you invest the time to become proficient in LaTeX as early as possible, as it will pay dividends for the rest of your professional career. In this section I outline several advantages of LaTeX over Word, and describe how to comment, track changes, spell-check, use versioning."
+
+Well I'll be clear. If you use some {\it wysiwyg} (what you see is what you get) type-setting tool (like Word or Open Office), I predict you will wish you had used \LaTeX by at least the end of your second year of your research, if not before. Why? See figure \ref{fig:whylatex}.
+
+\begin{figure}
+\begin{centering}
+\includegraphics[scale=0.335]{docComplexity}
+%\includegraphics[scale=0.75]{whylatex}
+\caption{\label{fig:whylatex}Graph to show relative estimated time wasted using Word or \LaTeX for a given task. Adapted from image uploaded by `Sorantis', February 13 2011, to: \url{https://softwareengineering.stackexchange.com/a/47403/}.}
+%\caption{\label{fig:whylatex}Graph to show relative estimated time wasted using Word or \LaTeX. Taken from: \newline \url{http://www.pinteric.com/miktex.html}}
+\end{centering}
+\end{figure}
+
+Word is a practical tool for writing short and simple documents but becomes too complex or even unusable when using a wysiwyg system. Granted, there's a small effort required up-front to learn the typesetting commands, but hopefully I've included an example of one of everything that you will need in this document.
+
+The only time a wysiwyg type-setting tool is practically useful is for working with people who are going to contribute significantly to your {\em paper} and you are not using mathematics or many images. Some clinical journals
+may even require you to use Word. However, in general, most journals accept (and like) \LaTeX.
+
+Finally, new online services, like Overleaf, allow some level of wysiwyg operation and provide online real-time collaboration in a `Google Docs' manner'
+
+% Erik: I see "\LaTeX", "latex", and "LaTeX" used interchangeably here. Consider using just one consistent phrase.
+
+\subsection{Reasons to use \LaTeX}
+OK - so here are a few specific reasons ... there are many more, but you'll need to understand some more about \LaTeX first.
+\begin{enumerate}
+\item Powerful and simple bibliography tools - combined with Mendeley 
+%or Jabref (see section \ref{sec:jabref}) 
+you may never have to write out a reference ever again.
+\item Portability and re-usability. My latex from 1989 still works. Converting wysiwyg documents from 2 years ago is problematic. In fact, when I swap between devices the small changes in Office versions mean my document formatting changes each time. You will reuse parts of your thesis as you move through your career. Each time you will likely reuse parts of your papers, reports and thesis. Placing parts of your thesis into a journal template is far easier in \LaTeX.
+\item Unmatched professional quality consistent typesetting. 
+\item Quality of images. You are forced to make your images and text separate. This leads to far superior images that are not altered in quality by the wysiwyg system.
+\item Vastly superior flexibility when dealing with images, tables etc.
+\item Easy to comment out sections and restore later, and add notes to self and others. 
+\item Online tools
+\end{enumerate}
+
+
+\subsection{What about comments and track changes?}
+Yes - track changes are useful, so use it with Word or Google Docs, etc., when
+required. (Remember, for your thesis, you are the sole author, so no-one but you should be editing your thesis - only commenting. %Also - use a source code control system for your thesis, and you will never lose a file or comment again.
+The big problem with Word documents are that people store versions locally and later you have to merge them (which rarely works and is very time consuming). You always lose edits this way. It's also a poor way to show users what you've changed (it gets too busy too quickly). 
+
+You can note changes in \LaTeX (for your colleagues/supervisor/reviewer using comments in line or using colours:
+\begin{verbatim}
+\verb|\todo{}| (\todo{red}) and 
+\verb|\comment{}| (\comment{green}), 
+\verb|\gari{}| (\reviewer1{orange}) \verb|\review2{}| (\reviewer2{blue}). 
+\end{verbatim}
+Anything placed in the 
+curly braces of these commands will be colour coded accordingly.
+They are then easy to find later and help your supervisor know what are your comments and questions, or help identify what you changed for a reviewer. 
+Note that you may want to change 
+the names of the reviewers, or the colours (particularly if one
+of the team writing or reading this has difficulty perceiving 
+differentiating any pair of these colours). 
+Acrobat Reader also allows you to add comments directly to the PDF, but this is generally something you should save for the supervisor when they are off-line, such as on a long trans-oceanic flight.
+
+% \section{Installing the \LaTeX software}
+% \url{http://www.latex-project.org/}{Latex-Project.org}.
+% Operating system-specific installations can be found here:
+% \url{http://www.latex-project.org/ftp.html}. An example
+% distribution that has proved successful is MikTex: \url{http://miktex.org/}.
+
+% \subsection{Editor software choice}
+% Many \LaTeX distributions include a text editor, (including MikTex), 
+% but you may want to consider a more powerful editor like {\it Emacs}:
+% \url{http://www.gnu.org/software/emacs/}.
+% As with code editors, you may find that syntax highlighters are useful.
+
+\subsection{What about spell-check?}
+This is important - but almost any editor has one, or any web browser allows you to activate a plug-in. 
+A classic tool is {\it iSpell}: \newline
+\url{http://www.ssc.wisc.edu/~dvanness/ispell.htm}. This works well with {\it Emacs}. Just to reiterate, don't submit (or even send your supervisor) work without spell checking! Any reviewer will intuitively think the scientific work is sloppy if you can't be bothered
+to do this.
+
+\subsection{Versioning, back-ups and roll-backs}
+If you don't use a cloud service, make an off-site backup of your code, paper, thesis, annotations, lab notes etc. and make a note in your calendar to do this daily. At the very least, make this weekly, as long as you are OK losing a week's worth of work. (You should assume your hard disk will crash and you lose your USB back-up one day before any critical deadline your report is due.)
+{\bf Do not version control data that can be regenerated - it becomes unmanageable and it wastes disk space. Just back-up the scripts to generate the derived data. Moreover, your derived data may contain protected health information (PHI) and the remote server is unlikely to be compliant with the applicable regulations (e.g. HIPAA in the US). See section \ref{sec:encrypt} for more on this.}
+Even if you use a cloud server to document, it's worth using a system that synchronizes the data back to hard disk on all your devices, so as you swap between devices and move in and out of connectivity, you maintain synchronization with the central cloud service version, and aren't stymied when the cloud service has a glitch. 
+
+Your code (and articles/thesis) should all be version controlled using something like {\it github}. 
+If you are too lazy to learn this, or are having issues with local policies, then use something like Google Drive, \url{dropbox.com} or \url{box.com}. (The latter can be made HIPAA-compliant, and preferred when there's a chance you have PHI floating around. These are excellent methods to make incremental back-ups of your 
+files and roll-back to earlier versions. You can also share the 
+directory with your supervisor/collaborators. You should also think
+about using this in parallel to version control, because it helps you
+work across computers / or when you are offline. {\bf Do check on the 
+PHI issue though!}
+
+If you aren't using version control, and are wondering what exact changes took place to a chapter or
+piece of source code, try using \verb|kdiff|
+(\url{http://kdiff3.sourceforge.net/}).
+\verb|kdiff| is an excellent tool for comparing two versions of the same 
+code to see what has actually changed. This is particularly good 
+for tracking incremental versions, and merging versions that you made
+on different computers. (You can just drag and drop the changes 
+from one doc to the other.)
+
+\subsection{Lab diary: paper, emails or Google docs?}
+\label{Lab_diaries}
+
+For physical experimental work you may find it is better to keep
+lab notes in paper form. A lab book should be dated and initialed
+each day (in case there is a dispute about when an idea was first
+conceived between collaborators or externally with patent lawyers). Some funding agencies require your lab diaries to
+be co-signed each day too!
+
+For computational-based research, a better option can be a digital
+lab book. {\it Google docs} make an excellent backed-up progress report
+with automatic time stamping and authorship. They are great for 
+collaboration and tracking changes. (You can even embed \LaTeX 
+equations in the document.) It can then serve as proof that you invented something at a given time. If your local laws are not so arcane that they require paper versions - and even then, you should submit a proper official disclosure with supporting evidence. However, the move from first-to-invent to first-to-file in many patent systems means that it's only the filing that is important. Email is another (hacky) way to back up and time stamp such information, but is not good for versioning, roll-backs and collaboration. Unless you use a decent client/service like Gmail, you are doomed to lose the work at some point. 
+
+Whichever method you choose to track your progress, and organize
+your daily thoughts, you should make sure that you make a habit
+of doing so. Consult your supervisors though - they may not
+be happy with the above suggestions, particularly if you may be
+dealing with intellectual property or sensitive data.
+{\bf Note that you should not use these methods to record sensitive information. See section \ref{sec:encrypt}. }
+
+\subsection{Sensitive data}
+\label{sec:encrypt}
+
+Sensitive data, such as that restricted by a non-disclosure agreement or identifiable patient data (e.g. data containing names, dates, retina images, fingerprints,
+full face photos, etc.) should not be emailed, backed up on public servers, or copied to non-secure/unencrypted hard drives or portable media. This includes all cloud services that are not explicitly HIPAA-compliant. (Legally, {\bf YOU} are responsible for checking that.) This includes your laptop or desktop computer. You should encrypt a partition of your hard drive (or better still, all of it) and make sure the data are copied only to the encrypted regions. 
+Above all, check with your supervisor regarding the policy on where data should be stored. Some data should not be taken out of the physical location from where it was recorded, and it is often illegal to put it in cloud services (even when it doesn't contain identifiable data) because the cloud servers are located across regional borders.
+
+% Erik: What about HIPAA-compliant email? I believe Emory email meets that standard. I see clinicians and researchers regularly use their emory.edu email addresses for sharing PHI. Just a suggestion to note it is acceptable to use explicitly HIPAA-compliant email. You do mention Box in this context.
+
+\subsection{This template}
+
+% Erik: typo; "papers/thesis" -> "papers/theses" to be plural?
+% This is a style point but I suggest reducing the use of parentheses. It does come across as organic and conversational, reflecting how we think - tangential yet connected to original line of thought. But I find writing to be clearer and more direct when the writer uses fewer parentheses. The previously parenthesized sentence could just be the next sentence. When I remove my own parentheses during edits, it forces me to dichotomize if the thought was too tangential to warrant inclusion, or if the thought needs to be written in more strongly connected manner to the prior sentence. Of course, sometimes parentheses are quite appropriate.
+
+This \LaTeX template was originally designed to help students put a D.Phil/Ph.D thesis together and is based upon a combination of templates sent to me by various students and post-docs at MIT and Oxford, things I found on the Internet, and my own experience and papers/thesis over the last 20 years of writing and supervising doctoral work, and 30 years of writing \LaTeX. I credit no-one in particular, including myself. (This is mostly because I can't remember where much of this came from - mostly osmosis and serendipity. I consider this work 'anonymous creative-commons'. Credit me or not for this work, I don't care.)
+Some of the guidelines here have been taken from official university `advice', but there are often no standard thesis template or set of guidelines on how to lay out these documents at most institutions. (This is probably because it would be impossible to get academics to agree on a single set of standards, even within a field, let alone across fields.) So I've done what most students do, and taken an aggregate of the most recent accepted theses and added my own thoughts. Feel free to tweak, but make sure you check this in the same manner to ensure you don't stray too far (0.1 standard deviations?) from the accepted `norm' for your department or institution. It's best to just 
+
+% Erik: Unfinished sentence here?
+
+% Erik: Thesis is singular; convert to "theses" in below sentence?
+
+This template is intended to be a general all-purpose report framework, covering undergraduate thesis, master thesis, internship reports, Ph.D. qualifying or Probationary Research Status (PRS) Transfer Reports\footnote{At the end of your first year of your D.Phil. at Oxford you are required to present a report describing your first year of 
+research, and a proposal for the next $2+$ years to complete the D.Phil.}, M.Sc., M.Phil., and D.Phil/Ph.D. This means you will need to comment out certain sections that do not relate to  your report type. The in-line comments in the master \LaTeX  file will explain if you need the relevant section or not.
+
+The template is divided into several files you will need to edit:
+
+\begin{itemize}
+\item \verb|main.tex| - This is the main file (which you compile) and will automatically include all the other files. You do not need to edit this unless you want to. 
+When you compile this template locally, you will generate a PDF document called the same
+thing as the main template file. That is, \verb|main.pdf|. 
+Make sure you rename this main template to something name- and report- specific 
+(e.g. \verb|Einstein_MSc.tex|) so that when you send the PDF to your supervisor, 
+it is self-explanatory. If you use a on-line service like Overleaf, then you can set the service to name the PDF as the same of the name of the project, not the title of the main \LaTeX file. Please remember to give this a useful name. `Thesis', `Report', `IEEE submission', `Untitled' (a common Google Doc I receive a shared link to), `Ph.D. work', etc. are really unhelpful. I have thousands of files sent to me that are named in this manner. I rarely look at them twice. Please put yourself in your supervisor's shoes. 
+\item \verb|declaration.tex| - A declaration that this is all your own work, except where indicated.
+\item \verb|dedication.tex| - Self-explanatory. Thank 
+\item \verb|abstract.tex| - This should be a concise, self-contained summary of the work.
+What is the problem you are addressing, why, what you did, key achievements, and conclusions.
+\item \verb|acknowledgments.tex| - A list of all those that helped you. 
+\item \verb|intro1.tex| - The introduction, chapter 1 in your thesis, should provide an overview of the research, rationalizing the work, and setting the scene. In a thesis, you may list the key contributions at this point, but not in a standard article. 
+\item \verb|chapterN.tex| - The main chapters of the thesis (where \verb|N|$=1,2,...,6$ or more). 
+\item \verb|conclusions.tex| - Self-explanatory. 
+\item \verb|gantt.tex| - A Gantt chart showing the major tasks and when you will do each one up to the end of the thesis.  
+\item \verb|publist.tex| - A list of your publications as a result of the thesis. You can generate this from \verb|refs.bib|.
+\item \verb|glossary.tex| - A list of abbreviations and definitions.
+\item \verb|refs.bib| - The master file containing all the publications you want to cite.
+\end{itemize}
+
+\subsection{Format and length of document}
+\label{sec:length}
+
+Note that format and length requirements are always subject to change so check with the journal 
+or your department
+to make sure - don't take this document as the final word.
+
+To change this template from its current single spaced version, 
+to the font required for some reports (e.g. 11pt Arial text) change the 
+`documentclass' declaration in the  \verb|main.tex| file to read:
+
+\begin{verbatim}
+\documentclass[bibliography=totoc,11pt,a4paper,english,oneside]{scrbook}
+\renewcommand{\rmdefault}{phv} % Arial fonts
+\renewcommand{\sfdefault}{phv}
+\linespread{2} % for double spacing
+\end{verbatim}
+
+\subsection{Layout of a paper}
+A general approach to laying out a paper is as follows:
+Use the standard \LaTeX
+template such as this one for Phys. Meas., or IEEE Transactions on Biomedical Engineering. 
+In the latter case the article must be between 8 and 12 pages long (including abstract, all appendices, etc.). Be careful about voluntary and mandatory page charges. Below 7 or 8 pages it's often voluntary, but thereafter the price per page rises fast. Colour pages can cost much more, so be careful with figure generation - see later. 
+% using this template with its current margins, spacing and font (Times New Roman 12pt). 
+Do not attempt to change the font size/type or margins, or you will be ask to rectify the issue, adhere to the page limit and resubmit. For Phys Meas, there are no longer any page limits, but don't think this is license to avoid Occam's razor. 
+Remember that the reviewer will not thank you. If you exceed 8-12 pages, try to use {\it appendices}. In general, information that is not essential to explain your findings, but that supports your analysis (especially repetitive or lengthy tables), validates your conclusions or pursues a related point, not fully aligned with the purpose of the article, should be placed in appendices. In other words, appendices are for details that are best skipped on first read, but the reader might come back to later when thinking more deeply about the research. 
+\par
+Remember to follow the standard style instructions, and pay particular attention to 
+placing the correct information in the right sections. Results should not 
+appear in the methods, and methods should not appear in the introduction or
+the results sections. It seems obvious, but I see it all the time. The layout is 
+the standard scientific form:
+\begin{itemize}
+\item Abstract: See the abstract description at the start of this report
+\item Introduction: Set out what the motivation for the study is, and briefly what you did (at a high level).
+\item Background: Detail what others have done before as a benchmark.
+\item Methods: Describe your scientific methods in a logical manner. Do not list a chronology of your thoughts and every detail that didn't work. Step back and think how you can present the work in the most coherent and succinct manner. Do not give away any results here.  
+\item Results: List your results in the same order as your methods, with corresponding sections. There must be a methods section for every result section. Do not analyse or interpret them at this stage. Do make sure you describe the results in enough detail, and make sure everything is defined. 
+\item Discussion: Now you can interpret the results and discuss them in the context of the background work. Compare your results to those of the rest of the field and explain why they are better or worse, and whether the results are directly comparable. Also list the limitations of your study and what the next logical steps are. 
+\item Conclusions: Sum up the study and results, and its relevance importance. 
+\item Acknowledgments: Include the exact acknowledgments as requested by your funders. Include all related funding bodies for every author and any contributors not listed as an author. In the latter case, you must contact them for permission, and send them a full draft of the paper. 
+\end{itemize}
+
+% Erik: typo in "\item Conclusions"; "relevance importance" should be "relevance and importance" perhaps?
+
+% \subsection{4YP}
+
+% These are expected to be 50 pages, (including all appendices, frontmatter etc.), although they can be shorter. Content over quantity.
+% In March 2011, these were the instructions mailed out (which may have changed of course):
+
+% {\sc Printing}: The deadline for submitting a report to the Engineering Science Print Room (Thom Building room 1.03) for printing by the Department is Friday of week 2 of Trinity Term. You can submit your report for printing in the form of a WORD, pdf or postscript file (e-mail to printroom@eng.ox.ac.uk, or call by the print room in person).
+ 
+% You are allowed a maximum of 10 pages of colour printing per copy of your report. (For joint reports each student contributing to the report is entitled to 10 pages of colour within each copy of that report.) If you have more you are liable to be charged at a rate of 25p per page.  Even a single coloured line on a graph will be counted as a colour page!  It is not permissible to use spare funds from your project allowance to pay for colour printing.
+ 
+% {\sc Submission}: Three copies of the fourth year project report must be submitted to the Chairman of the Examiners, Honour School of [Engineering Science or Engineering, Economics and Management], c/o Clerk of the Schools, Examination Schools, High Street, Oxford, by noon on Friday of 4th week of Trinity Term 2011.  This is a strict deadline which must not be missed. 
+
+% {\bf The report must not exceed 50 pages (including all diagrams, photographs, references and appendices).  All  pages should be numbered, have margins of not less than 20mm all round, and type face of Arial 11 point font with double line-spacing.}  The report must be the candidate's own work and should include a signed statement to this effect.  A declaration of authorship form is attached for this purpose and must be bound into the report after the title page, but need not be included in the page count.  Your risk and COSSH assessments must also be bound into the report, but again need not be included in the page count.
+
+% Please also ensure that: \\
+% (i) your name and project title are on the report, but not your candidate number.\\  
+% (ii) you have consulted the University's web site on plagiarism and how to avoid it: \\
+% \url{http://www.admin.ox.ac.uk/epsc/plagiarism/index.shtml}.
+ 
+% Finally, it is your responsibility to ensure that your work is handed in to the Examination Schools by the published deadline. 
+
+
+% \subsection{M.Sc.}
+
+% Theses submitted by candidates in Engineering Science  must not exceed 200 
+% pages for the Degree of M.Sc. (by research).  
+% They should be double spaced on A4 paper in 
+% normal size type (Times New Roman, 12 point), the total to include all 
+% references, diagrams, tables, appendices, etc.
+
+% For taught masters courses it can vary.
+% The regulations for the Biomedical Engineering (BME) Taught M.Sc. indicate
+% {\bf a maximum of 60 pages}. 
+% {\it All pages should be numbered, have margins of not less than 20mm round, and type face not less than 11 pt font with line spacing of no less than 8mm.} 
+% The spacing of 8mm ($\frac{1}{3}$ mm) is generally thought to be `double spaced'.
+% The full regulations for this course can be found online at: \newline
+% \url{http://www.admin.ox.ac.uk/examregs/17-40_SPECIAL_REGULATIONS.shtml#subtitle_15)}
+
+
+% \subsection{PRS Transfer report}
+% Transfer from Probationer Research Student PRS to M.Sc.(R) or D.Phil. status requires the submission of a report and an oral examination. 
+% The details in this subsection concerning this process are taken from the doc distributed by the Director of Graduate Studies in 2010.
+% \par
+% Every graduate student studying for a research degree in Engineering Science is required to register in the first instance as a Probationary Research Student. During your first (research) year, you will receive an e-mail from the department informing you that two academics will be appointed to join your supervisor(s) on a supervisory committee. One of these will be a specialist in an area close to the topic of your research and the other will be in a totally different field. Towards the end of the first year of research you will submit a report to this committee and attend an oral examination to demonstrate your ability to carry out work leading to the M.Sc.(R) or D.Phil. degree.
+% \par
+% In your report you will need to provide evidence that you have:
+% \begin{enumerate}
+% \item The necessary academic and other abilities to carry out original research of high quality. 
+% \item Suitable background knowledge through critical study of the literature. 
+% \item An appropriate research topic likely to lead to a satisfactory thesis. This should take 2 years for an M.Sc.(R) or 3 years for the D.Phil. from the start of your work in Oxford. 
+% \item The necessary resources for your research. Your supervisor will normally take responsibility with you for this. 
+% \end{enumerate}
+
+% If your written transfer report and your performance in the oral examination are satisfactory, you will be sent a \verb|GSO.2| form, so that you may formally apply to the University for change of status to M.Sc.(R) or D.Phil. student.
+
+% Your transfer report should cover much of your work in the first nine months of your research and be submitted to the Assistant to the Director of Graduate Studies {\bf not later than eleven months after commencing graduate work in Oxford}. For the majority of students who start in Michaelmas Term, the submission deadline is {\bf 1st September}, for Hilary Term the submission deadline is {\bf 1st December} and for Trinity Term the submission deadline is {\bf 31st March}. 
+
+% The report should not exceed a maximum of {\bf 60 pages} from front cover to last page (including all diagrams, photographs, references and appendices). All pages should be numbered, have margins of  20mm-30mm all round (ALL margins should be 20 mm-30 mm. The measurements taken are {\bf 20 mm - 30 mm} from the top of the page to the top of the first sentence and likewise, from the bottom of the page to the bottom of the final sentence), type face of {\bf Times New Roman 12 font, and be in double-line spacing}. Reports that do not conform to these specifications will not be accepted.
+
+% Before your report is printed and bound, it must first be checked by the Departmental Graduate Studies office to ensure that it conforms to the regulations governing the correct length and presentation. This can be done by e-mailing an electronic copy of your report to:  \verb|postgraduate.studies@eng.ox.ac.uk.| Once it has been approved, your report can then be submitted for printing by the print room. Reports which do not conform to the regulations will need to be revised accordingly.
+
+% \subsection{D.Phil.}
+% The official rule in the ``Examination Decrees and Regulations'' (Grey Book) on thesis length and presentation provides the following advice for D.Phil.:
+% \par
+% {\it The thesis must be typed or printed on one side of the paper only, with a margin of 1.25 to 1.5 inches (32 to 38mm) on the left-hand side of each page. Theses in typescript should present the main text in double spacing with quotations and footnotes in single spacing. In the case of word-processed or printed theses where the output resembles that of a typewriter, double spacing should be taken to mean a distance of about 0.33 inch or 8mm between successive lines of text. Where a word processor produces output which imitates letterpress then the layout may be that of a well designed book. Candidates are advised that it is their responsibility to ensure that the print for their thesis is of an adequate definition and standard of legibility.}
+
+% For good legibility you should use a 12 point font. %\footnote{\url{http://www.physics.ox.ac.uk/PP/grad/GTC22.htm}}.
+
+% In addition to the rules in your university's handbook (at Oxford this is called the `Grey Book') see any notes produced by you Graduate Studies Office ``Preparation and submission of thesis and abstracts submitted for the degrees of D.Phil., M.Sc. (by research) and M.Litt.'' %(ref. GSO1/Notes 2 Prep and Sub.). 
+% In particular note word or page limits. %``6. Regulations of Boards and Committees (xvii) Physical Sciences (b) Word limits'':
+% \par
+% In Oxford {\it theses submitted by candidates for the Degree of D.Phil in Engineering Science and Physics (except Theoretical Physics) must not exceed 250 pages, A4 size, double spaced in normal-size type (elite), the total to include all references, diagrams etc.}
+
+% Some sub-departments (e.g. Physics) consider that 100 - 150 well-written pages should be sufficient\footnote{{\it ibid}}. 
+
+
+
+
+
+
+
+
+
+
+
+After the introduction, laying out why you are doing this, you should detail the background 
+this appears in Chapter 2 of a thesis or a separate {\it Background} section in the paper. Sometimes this is compressed into the introduction for short papers. 
+It should describe the physiology of the problem in much more detail, and provide previous attempts to solve the problem you are addressing.This section/chapter should include a through overview of existing work in the field. You need to show you are fully aware of previous work in this (and related) areas, and are not simply repeating this work. Cite all relevant works for a thesis (and key works for a paper). Make sure you explain what they did and then later explain why what you are going to do either builds on this, or that work is not relevant. A table of previous work is often useful.
+
+\subsection{Chapter layout}
+Each chapter should be divided into sections and subsections 
+using the commands \verb|\section|, \verb|\subsection| 
+and \verb|\subsubsection|, forming a logical numbered hierarchy. 
+
+\subsubsection{Internal (cross) referencing: the {\sc label} command}
+\label{sec:crossref}
+Each section command should be followed by a label command
+(like \verb|\label{sec:crossref}|) and referenced using
+the \verb|\ref| command. for example, this section has
+been labelled with the above label command, so we would 
+reference it by using the command: \verb|\ref{sec:crossref}|)
+which generates a number reference thus: \ref{sec:crossref}.
+
+\subsubsection{Equations, tables and figures}
+Equations, tables and figures are referenced in the same manner as sections. That is, you add a label (e.g. for an equation
+\verb|\label{eq:hyperbolic_orbit}|) and then you cite it like this:
+\begin{verbatim}
+As we can see from Eq. \ref{eq:hyperbolic_orbit}, 
+the craft is out of control.
+\end{verbatim}
+Latex will automatically generate the appropriate number (and link) for the
+\verb|\ref| command and insert it after the abbreviation 
+\verb|Eq.|. Note that the equation is abbreviated. This is not required, but you should just be consistent. Similarly, figure is
+abbreviated to \verb|Fig.| but table is usually kept as \verb|Table|. Careful when referring to more than one equation or figure!
+ 
+% \subsection{Indexing}
+% \label{Indexing}
+% You can also index a given term using \verb|\index{term}| and
+% the \verb|makeindex| command.
+
+\subsection{External referencing and bibliography}
+
+Note that when you cite a publication you will need to have a list of bibtex sources for each citation and an associated tag. These are stored 
+in your {\it bibfile} and are called {\it anything.bib} 
+(where {\it anything} can be ... well ... almost anything. In this 
+template it is imaginatively called {\it refs.bib}.
+\par
+
+
+A typical bibfile will have an entry that looks like this:
+
+\begin{verbatim}
+@article{Tsiotou2005,
+author = {Tsiotou, A. G. and Sakorafas, G. H. and Anagnostopoulos, G. and Bramis, J.},
+journal = {Medical Science Monitor},
+keywords = {Blood Coagulation Disorders, Systemic Inflammatory Response Syndrome},
+mendeley-tags = {Sepsis},
+month = {March},
+number = {3},
+pages = {RA76--85},
+pmid = {15735579},
+title = {Septic shock; current pathogenetic concepts from a clinical perspective},
+url = {http://www.ncbi.nlm.nih.gov/pubmed/15735579},
+volume = {11},
+year = {2005}
+}
+\end{verbatim}
+
+Don't be alarmed here - these can be generated automatically. Try something like {\it Mendeley} or {\it Jabref}. %\url{http://jabref.sourceforge.net/} (see below). 
+Notice that the reference begins with \verb|@article| and then an open curly brace.
+This tells bibtex that the rest of the text to the final closed curly brace refers to a journal article and so to format it accordingly. The next item you will encounter is a tag that is specific to this particular reference - in this case \verb|Tsiotou2005|.
+
+% By the way - notice here that I have used the \verb command to 
+% make in-line verbatim text (that is, latex does not try to interpret
+% any characters in between the 'pipes'. Note also the use of pipes ('|') 
+% rather than curly braces ('{' and '}'). This is most unusual for latex. 
+
+% Note also that I can insert comments like Matlab - with a percent sign
+
+% note also that, even though latex interprets a missing line
+% as a new paragraph, it does not insert multiple paragraph breaks, 
+% even though I have left multiple lines blank. 
+
+
+To cite an article like the one above, type  \verb|\cite{Tsiotou2005}|
+and a number (or name and year) will appear in the brackets like this:
+\cite{Tsiotou2005}. In some versions of \LaTeX, the PDF file will 
+hyperlink this to the references at the end of the document.
+
+Note, depending on the \LaTeX environment, you may have to run the 
+{\it bibtex} command separately to generate the bibfile, and then 
+rerun the {\it latex} (or {\it pdflatex}) command twice to allow the cross referencing
+to be picked up.
+
+\subsubsection{Online collaborative tools}
+There are many reasons to use a 
+create instant versioning and backup, and abstract your publication.
+Of course, your thesis should be written only by you, so there's no direct need for a collaborative tool. However, by editing online, you still benefit from all of the above advantages.
+
+\subsubsection{Automated reference search and generation}
+\label{sec:jabref}
+
+Obviously it's a good idea to collaborate. Sharing references with your peers is very productive and is not plagiarism. Try using an on-line tool like {\it Mendeley}, which has a desktop client and a browser plug-in. You can generate references just by clicking the button on your browser! (Do check it for formatting though.)
+
+% {\bf Jabref} (\url{http://jabref.sourceforge.net/}) is a powerful
+% cross-platform bibliography tool for managing your bib files
+% (or databases). You can import and export multiple formats,
+% including Endnote. You can also do automatic searches and
+% retrieve the bibtex references, so you may never have to
+% write one.
+
+% Jabref also supports searching within the references, including
+% your own notes. 
+
+
+\subsubsection{Figures}
+\label{sec:figures}
+
+The introduction (or Chapter 1 if you are writing a thesis) illustrated how to insert a figure into a \LaTeX document using the \verb|\includegraphics| command.
+\LaTeX takes care of the positioning for you, but you can tell it 
+your preferences. After the \verb|\begin{figure}| command, you can
+add a location order preference in square braces. The locations are:
+\begin{itemize}
+\item t - top of the page
+\item b - bottom of the page
+\item p - on the next page
+\item h - here, at this point in the text
+\end{itemize}
+So, if you write \verb|\begin{figure}[tbp]| \LaTeX will attempt to 
+place the figure at the top of the page. If there is no space, then 
+it will try to the bottom, then the next page, and sometimes later
+pages.
+
+\subsubsection{Labels, Legends, Units and Captions}
+Each figure should have all axes labelled with the correct
+variable (used in the text), followed by the units in braces.
+\newline
+E.g.: \verb|Arterial Blood Pressure (mmHg)|
+\par
+Make sure the font is large enough to read. 
+If you add a legend, make sure the same principles hold.
+\par
+Each figure must have a caption below it, which is 
+basically self-contained and describes the figure contents,
+including all variables plotted, and what the reader
+should be looking for - i.e. the point you are trying to make.
+Do not put a title on the figure (like you do in Matlab), since
+the caption should contain all the descriptive language.
+\par
+{\bf Do not} write something like `see text for details'. This
+is a pointless statement. Obviously the text contains the 
+details, but the reader should be able to understand the 
+figure by reading the caption. Of course, the caption
+is just a summary and should not repeat the text, and 
+should not generally grow to take up more than 3--4 lines at most.
+
+\subsubsection{Figure file format}
+
+It is wise to save your figures in several formats so that you can 
+use them in many different media (PPT, HTML, PDF, etc). 
+The best formats are PNG, (lossless) JPEG, PDF, EPS and Matlab's
+native FIG format. The PNG and PDF are useful when you compile 
+directly to PDF. The EPS format is useful when compiling direct
+to postscript. The FIG format is useful (assuming you are using Matlab)
+because it saves all the data used to generate the figure, and allows
+easy manipulation of the fonts, zoom, axes etc after the fact.
+Your supervisor / external examiner will require such adjustments, 
+so you want to make sure you save the raw data 
+
+One of my colleagues was asked by his external examiner to increase
+the font size on {\bf every} figure in her thesis. That meant re-running
+every single experiment he had reported in his thesis - some as old as 4 years previously! 
+
+\subsubsection{Combining figures}
+You can also scale images, and stack multiple images in a figure,
+as in Fig. \ref{fig:multiplots}. 
+This requires the {\it subfloat} package - you must insert \verb|\usepackage{subfig}| at the top of the \verb|main.tex| file.
+Note the reference label is
+placed inside the caption in the \LaTeX source.
+
+\begin{figure}[tbp]
+\begin{centering}
+\caption{\label{fig:multiplots}Combining several plots into one}
+
+\subfloat[15 min segments, slid by 3 min with 1 min anchor windows]{ \label{fig:prsa1} \includegraphics[scale=0.35]{prsaScatter1}}
+\hspace{0.1in}
+\subfloat[15 min segments, slid by 3 min with 5 min anchor windows]{ \label{fig:prsa2} \includegraphics[scale=0.35]{prsaScatter2}}\\
+
+\vspace{0.1in}
+
+\subfloat[30 min segments, slid by 5 min with 1 min anchor windows]{ \label{fig:prsa3} \includegraphics[scale=0.35]{prsaScatter3}}
+\hspace{0.1in}
+\subfloat[30 min segments, slid by 5 min with 5 min anchor windows]{ \label{fig:prsa4} \includegraphics[scale=0.35]{prsaScatter4}} 
+
+\end{centering}
+\end{figure}
+
+\subsubsection{Common figure mistakes}
+
+Let's look at Figure \ref{fig:multiplots}. What can you see wrong with it? 
+\begin{itemize}
+\item The data types are in colour, but not distinct shapes. When you print this in black and white, (or if you have a slight colour blindness) then the plot will become meaningless. Assume black and white printing. 
+\item The caption is too terse. It doesn't describe the figures well.
+\item None of the abbreviations are defined in the caption.
+\item There are no units on the axes (in parentheses after the parameters).
+\item The numbers on the axes and the parameter labels are far too small. 
+\item The Matlab figures still have their titles - these should be removed and all information be provided in the caption. 
+\item The presentation of the data is misleading. The scales are different on each graph, so comparisons cannot be made. 
+\end{itemize}
+
+What's right with it? 
+
+\begin{itemize}
+\item  The data types are at least consistent between graphs. It's important that if colours are used, then they mean the same thing from graph to graph. 
+\item Each subplot is labelled a, b, c, d .... you should never say 'the upper plot' or the left plot.
+\end{itemize}
+
+On this latter point, be aware that you should never make statements about the figure which refer to its position in the text. It can move around, and so will your text as you expand and edit. For example, the phrase 'in the figure below' is not acceptable. When you do refer to the figure, make sure you use the \verb|\ref{}|  command and the same name used in the \verb|\label{}| 
+ command in the caption. 
+
+Finally: always make sure you have referenced every figure at least once. Never leave a figure hanging in the document without a good reason for it being there and a full explanation of its contents. To check, just search (using the command line tool `grep' for example) through all your TeX files for the number of times a label is used. (Also check that there is a label in every caption.)
+
+
+
+\subsection{Tables}
+\label{sec:tables}
+
+Tables are treated like figures, except that they are pure text, and
+are numbered separately. Note that all terms in a table, as for figures, 
+need to be defined in the caption if they were not already in the text.
+Symbols (such as $\dag$ to indicate significance) should also be defined. 
+
+An example of a complex table is given in Table~\ref{tab:varBoundaries}. 
+
+
+\begin{table}[h]
+ \caption{\label{tab:varBoundaries}Variable Boundaries for physiological parameters used in this study.}
+\centering 
+\begin{tabular}{@{\extracolsep{\fill}} c c c} % one 'c' for each column
+\toprule
+Variable  & Medical Bounds  & Data Deviation Bounds\tabularnewline
+\midrule
+ABPMean  & 10 - 220  & 16.74 - 143.79\tabularnewline
+\cline{2-3}
+ABPSys  & 30 - 250  & 19.78 - 210.74\tabularnewline
+\cline{2-3}
+ABPDias  & 10 - 200  & 5.53 - 117.78\tabularnewline
+\cline{2-3}
+CVP  & 0 - 50{*}  & -348.81 - 404.01\tabularnewline
+\cline{2-3}
+HR  & 10 - 220  & 21.43 - 153.93\tabularnewline
+\cline{2-3}
+RESP &  0 - 70  &  -171.59 - 209.54\tabularnewline
+\cline{2-3}
+SpO2  & 50 - 100  & 69.02 - 124.21\tabularnewline
+\cline{2-3}
+PULSE  & 10 - 220  & 8.02 - 161.51\tabularnewline
+\cline{2-3}
+NBPMean  & 10 - 220  & 31.40 - 117.36\tabularnewline
+\cline{2-3}
+NBPSys  & 30 - 250  & 41.80 - 171.03\tabularnewline
+\cline{2-3}
+NBPDias  & 10 - 200  & 17.94 - 112.16\tabularnewline
+\cline{2-3}
+PAPMean  &  5 - 100{*}  &  -12.07 - 75.82\tabularnewline
+\cline{2-3}
+PAPSys  &  5 - 100{*}  &  -15.65 - 106.71\tabularnewline
+\cline{2-3}
+PAPDias  &  5 - 100{*}  &  -9.95 - 57.51\tabularnewline
+\bottomrule
+\end{tabular}
+\end{table}
+
+%%%% Colourised version of table
+
+%% \begin{table}[h]
+%%  \caption{\label{tab:varBoundaries}Variable Boundaries for physiological parameters used in this study.}
+%% \centering 
+%% \begin{tabular}{@{\extracolsep{\fill}} c c c} % one 'c' for each column
+%% \toprule
+%% Variable  & Medical Bounds  & Data Deviation Bounds\tabularnewline
+%% \midrule
+%% ABPMean  & 10 - 220  & 16.74 - 143.79\tabularnewline
+%% \cline{2-3}
+%% ABPSys  & 30 - 250  & 19.78 - 210.74\tabularnewline
+%% \cline{2-3}
+%% ABPDias  & 10 - 200  & 5.53 - 117.78\tabularnewline
+%% \cline{2-3}
+%% CVP  & \cellcolor[gray]{.8} 0 - 50{*}  & \cellcolor[gray]{.8}-348.81 - 404.01\tabularnewline
+%% \cline{2-3}
+%% HR  & 10 - 220  & 21.43 - 153.93\tabularnewline
+%% \cline{2-3}
+%% RESP & \cellcolor[gray]{.8} 0 - 70  & \cellcolor[gray]{.8} -171.59 - 209.54\tabularnewline
+%% \cline{2-3}
+%% SpO2  & 50 - 100  & 69.02 - 124.21\tabularnewline
+%% \cline{2-3}
+%% PULSE  & 10 - 220  & 8.02 - 161.51\tabularnewline
+%% \cline{2-3}
+%% NBPMean  & 10 - 220  & 31.40 - 117.36\tabularnewline
+%% \cline{2-3}
+%% NBPSys  & 30 - 250  & 41.80 - 171.03\tabularnewline
+%% \cline{2-3}
+%% NBPDias  & 10 - 200  & 17.94 - 112.16\tabularnewline
+%% \cline{2-3}
+%% PAPMean  & \cellcolor[gray]{.8} 5 - 100{*}  & \cellcolor[gray]{.8} -12.07 - 75.82\tabularnewline
+%% \cline{2-3}
+%% PAPSys  & \cellcolor[gray]{.8} 5 - 100{*}  & \cellcolor[gray]{.8} -15.65 - 106.71\tabularnewline
+%% \cline{2-3}
+%% PAPDias  & \cellcolor[gray]{.8} 5 - 100{*}  & \cellcolor[gray]{.8} -9.95 - 57.51\tabularnewline
+%% \bottomrule
+%% \end{tabular}
+%% \end{table}
+
+
+\subsection{Equations}
+\label{sec:equations}
+Equation writing in \LaTeX seems fairly natural after a short period of time.
+There are essentially three ways to place equations into your thesis. 
+
+\subsubsection{In-line equations}
+The first is in-line like this: $a^n = b^n + c^n$, where $a$ is the 
+number of apples, $b$ the number of bananas,
+$c$ the number of cakes, and $n$ is a prime number. 
+Note that all terms are defined directly before or after the first time they are used.
+
+The above equation is generated with the text \verb|$a^n = b^n + c^n$|.
+Note that the dollar sign starts and ends the math environment in-line.
+
+Note also that in-line equations are not numbered. 
+So if you ever want to refer back to an equation, do not make it in-line.
+
+A full list of symbols you might use in equations can be found in
+David Carlisle's \verb|symbols.tex| 
+file\footnote{\url{http://web.ift.uib.no/Teori/KURS/WRK/TeX/latexsource.html}}.
+or here: \newline
+\url{http://web.ift.uib.no/Teori/KURS/WRK/TeX/symALL.html}.
+
+Note that every equation must have every parameter defined above it in the text, or immediately after it (in the same or following sentence(s). Nothing annoys an examiner or reviewer more than undefined parameters. Also, make sure you don't use the same (or similar) variables for unrelated parameters. Try to stick with the same symbol that others use, where-ever possible. 
+
+\subsubsection{Numbered equations}
+
+Numbered equations can be generated in this manner:
+\begin{verbatim}
+\begin{equation}
+\cos 2\theta & = & \cos^2 \theta - \sin^2 \theta 
+\label{eq:trig}
+\end{equation}
+\end{verbatim}
+
+which creates equation \ref{eq:trig} as follows:
+\begin{equation}
+\cos 2\theta = \cos^2 \theta - \sin^2 \theta 
+\label{eq:trig}
+\end{equation}
+
+Note the position of the label inside the equation environment.
+You can refer to an equation using the \verb|\ref{}| command.
+
+\subsubsection{Equation arrays}
+
+Sometimes, you want to make arrays of equations, but not
+number every line, such as when you are listing derivations.
+To do this you can do the following:
+
+\begin{verbatim}
+\begin{eqnarray}
+(\frac{1}{N})^2 \cos 2\theta & = & \frac{1}{N^2} \cos^2 \theta - \sin^2 \theta \\ \nonumber
+\cos 2\theta & = & \cos^2 \theta - \sin^2 \theta \\ \nonumber
+             & = & 2 \cos^2 \theta - 1.
+\end{eqnarray}
+\end{verbatim}
+
+Note that the $=$ symbol is bordered by an ampersand, so we
+have made a table, aligned around this symbol.
+
+The above code gives:
+
+\begin{eqnarray}
+(\frac{1}{N})^2 \cos 2\theta & = & \frac{1}{N^2} \cos^2 \theta - \sin^2 \theta \\ \nonumber
+\cos 2\theta & = & \cos^2 \theta - \sin^2 \theta \\ \nonumber
+             & = & 2 \cos^2 \theta - 1. 
+\end{eqnarray}
+
+
+Or you can be more complex:
+
+\begin{eqnarray*}
+\left| \frac{1}{\zeta - z - h} - \frac{1}{\zeta - z} \right|
+& = & \left| \frac{(\zeta - z) - (\zeta - z - h)}{(\zeta - z - h)(\zeta - z)} \right| \\  
+ & = & \left| \frac{h}{(\zeta - z - h)(\zeta - z)} \right| \\
+ & \leq & \frac{2 |h|}{|\zeta - z|^2}.
+\end{eqnarray*}
+The asterisk in \verb|eqnarray*| suppresses the automatic 
+equation numbering produced by \LaTeX. This is not required
+of course, and you can just use \verb|\nonumber| at the end of 
+any line you do not want numbered.
+
+
+\subsection{Footnotes}
+
+Footnotes are generally for you to insert in passing information
+that may be pertinent, but distracts the reader from the main 
+argument\footnote{Just like this sentence, which is an example
+of how you generate a footnote.}. Use sparingly and try not to 
+make them lengthy.
+\par
+One place where you perhaps should use footnotes is in the introduction
+to a chapter when you introduce the work you are about to present.
+If it has been published, or is in preparation, insert a footnote
+explaining this, and giving the exact reference. This helps the examiner
+know if anyone else has verified that section of the thesis.  
+Note that the reference will be repeated at the end of the thesis too
+in section \ref{publist}. Don't make the examiner
+flick backwards and forwards too much!
+
+
+\subsection{Appendices}
+These are like large footnotes. Large data tables or long derivations
+can go in an appendix.
+
+\subsection{Abbreviations}
+
+Abbreviations should be defined the first time you use them, and then subsequently you should stick to the abbreviated form. (Since an abstract is self contained, abbreviations must be defined therein and again in the main text.)
+Do not abbreviate a term you use only once. A list of abbreviations in an appendix is useful.
+
+\subsection{Glossary}
+
+A glossary of technical terms (particularly from a related field such as physiology) can be useful. 
+
+\subsection{Symbol list}
+
+If your thesis contains a lot of mathematics it is useful to have a list
+of variables in an appendix with exactly what each one means. This is 
+particularly important if you use the same parameters from chapter to chapter.
+
+This is also a good exercise to help you identify where you have defined 
+your variables and if you have used more than one symbol for the same variable, or one symbol for several variables.  

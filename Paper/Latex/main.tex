@@ -1,0 +1,110 @@
+\documentclass[12pt]{iopart}
+\newcommand{\gguide}{{\it Preparing graphics for IOP journals}}
+%Uncomment next line if AMS fonts required
+%\usepackage{iopams}  
+\usepackage{natbib}
+  % this is to disable \equation definition by iop and leave it to asmathet
+  \expandafter\let\csname equation*\endcsname\relax
+  \expandafter\let\csname endequation*\endcsname\relax
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{color}
+\usepackage{soul}
+\usepackage{subfig}
+\usepackage{booktabs}
+\usepackage{subcaption}
+\usepackage{subfigure}
+\usepackage{pdfpages}
+
+\usepackage{wrapfig}
+%\usepackage{subfig}
+\captionsetup[subfigure]{labelformat=empty}
+
+
+
+ 
+\setstcolor{red}
+\bibpunct{(}{)}{;}{a}{,}{,}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+\urlstyle{same}
+
+\begin{document}
+
+\title{12-lead ECG classification using Explainable Neural Networks and Ensemble models}
+
+\author{ 
+Bjørn-Jostein Singstad$^{1}$%, 
+%Tony N Other$^2$ 
+%and Bob B Smoot$^3$
+\\
+\small{
+$^1$ Department of Physics, University of Oslo, Oslo, Norway\\
+%$^2$ Department of Biomedical Engineering, Georgia Institute of Technology, Atlanta, GA, USA\\
+%$^3$ Institute for Medical Engineering \& Science, Massachusetts Institute of Technology, USA\\
+}}
+
+\ead{b.j.singstad@fys.uio.no}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{abstract}
+
+\input{abstract}
+
+\end{abstract}
+
+
+\maketitle
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+\input{introduction}
+
+%\section{Background}
+%\input{background}
+
+\section{Methods}
+\input{methods}
+
+
+\section{Results}
+\input{results}
+
+\section{Discussion}
+\input{discussion}
+
+\section{Conclusions}
+\input{conclusions}
+
+%\section*{Acknowledgments} 
+%\input{acknowledgments}
+
+\def\newblock{\hskip .11em plus .33em minus .07em}
+
+%\bibliographystyle{dcu}
+\bibliographystyle{naturemag}
+\bibliography{references}
+
+
+
+%-------------------
+
+\newpage
+\appendix
+\addcontentsline{toc}{chapter}{Appendix}
+%\input{Appendix}
+\includepdf[pages=-]{227.pdf}
+
+\end{document}
