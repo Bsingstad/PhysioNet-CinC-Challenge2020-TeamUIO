@@ -108,7 +108,7 @@ The paper describing the work in this project can be found here:
 |latex-file|
                                                                                 
 .. |latex-file| image::  https://img.shields.io/badge/Made%20with-LaTeX-1f425f.svg
-   :target: https://www.python.org/       
+   :target: http://www.cinc.org/archives/2020/pdf/CinC2020-227.pdf       
 
 
        
