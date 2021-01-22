@@ -9,6 +9,11 @@ PhysioNet-CinC-Challenge 2020 - Classification of 12-lead ECGs
 
 This project is based on the work we did in the  `PhysioNet/Computing in Cardiology Challenge 2020 <https://physionetchallenges.github.io/2020/>`_.  `This paper <https://iopscience.iop.org/article/10.1088/1361-6579/abc960>`_ [#]_ describes the Challenge and `this paper <https://physionetchallenges.github.io/2020/papers/227.pdf>`_ discribes our contribution in this challenge.
 
+|stateoftheart|
+
+.. |stateoftheart| image:: https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/convolutional-neural-network-and-rule-based/ecg-classification-on-physionet-challenge
+   :target: https://paperswithcode.com/sota/ecg-classification-on-physionet-challenge?p=convolutional-neural-network-and-rule-based  
+
 
 Data:
 =====
@@ -31,19 +36,6 @@ The data set in this project contains 43.101 ECGs and comes from six different s
 +-----------------+---------------------------------------------------+
 | 6               | Georgia 12-Lead ECG Challenge Database            |
 +-----------------+---------------------------------------------------+
-
-
-|makedataset|
-
-.. |makedataset| image:: https://colab.research.google.com/assets/colab-badge.svg
-   :target: https://colab.research.google.com/drive/1X5N_6gErP7--IDoN-AxW-aBbeYa4z-n7#scrollTo=mO_h0-9ebtCo  
-
-
-
-|stateoftheart|
-
-.. |stateoftheart| image:: https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/convolutional-neural-network-and-rule-based/ecg-classification-on-physionet-challenge
-   :target: https://paperswithcode.com/sota/ecg-classification-on-physionet-challenge?p=convolutional-neural-network-and-rule-based  
 
 
 Get access to the data:
