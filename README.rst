@@ -126,6 +126,16 @@ Licensed under the `Apache 2.0 License`_
 .. |Apache2.0 license| image:: https://img.shields.io/badge/License-Apache%202.0-blue.svg
    :target: https://opensource.org/licenses/Apache-2.0
    
+Citation:
+=========
+@inproceedings{singstad2020convolutional,
+  title={Convolutional neural network and rule-based algorithms for classifying 12-lead ecgs},
+  author={Singstad, Bj{\o}rn-Jostein and Tronstad, Christian},
+  booktitle={2020 Computing in Cardiology},
+  pages={1--4},
+  year={2020},
+  organization={IEEE}
+}
 
 References:
 ===========
