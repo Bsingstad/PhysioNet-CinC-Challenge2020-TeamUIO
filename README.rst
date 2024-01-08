@@ -128,6 +128,7 @@ Licensed under the `Apache 2.0 License`_
    
 Citation:
 =========
+``
 @inproceedings{singstad2020convolutional,
   title={Convolutional neural network and rule-based algorithms for classifying 12-lead ecgs},
   author={Singstad, Bj{\o}rn-Jostein and Tronstad, Christian},
@@ -136,6 +137,7 @@ Citation:
   year={2020},
   organization={IEEE}
 }
+``
 
 References:
 ===========
