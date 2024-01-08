@@ -128,15 +128,15 @@ Licensed under the `Apache 2.0 License`_
    
 Citation:
 =========
-.. code-block::
- @inproceedings{singstad2020convolutional,
- title={Convolutional neural network and rule-based algorithms for classifying 12-lead ecgs},
- author={Singstad, Bj{\o}rn-Jostein and Tronstad, Christian},
- booktitle={2020 Computing in Cardiology},
- pages={1--4},
- year={2020},
- organization={IEEE}
- }
+.. raw::
+   @inproceedings{singstad2020convolutional,
+   title={Convolutional neural network and rule-based algorithms for classifying 12-lead ecgs},
+   author={Singstad, Bj{\o}rn-Jostein and Tronstad, Christian},
+   booktitle={2020 Computing in Cardiology},
+   pages={1--4},
+   year={2020},
+   organization={IEEE}
+   }
 
 References:
 ===========
